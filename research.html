@@ -87,27 +87,23 @@
 <hr/>
 
 <h2>Undergraduate Dissertation: Distributed Learning and Inference</h2>
-<h4> Guide : Prof. Ganesh Ramakrishnan </h4>
-<p> We are working on an problem to optimize and implement distributed learning and inference
-for structured data. Currently we have framework based on Thorsten Joachims Latent
-SVM’s to optimize Multivariate Performance measures. Computation of model for the
-problem with non-decomposable loss functions like F 1 score is expensive. In my thesis I,
-advised by Prof. Ganesh Ramakrishnan, am working on algorithms to improve the speed
-and accuracy of the algorithm by using Asynchronous Alternating Direction Method of
-Multipliers (ADMM) and its variates. We are trying to incorporate ADMM in two phase of
-our problem namely Learning and Inference stages. This distributed approach is expected
-to make evaluation faster while adapting to non-decomposability of loss. <h4> <a href="btp/report.pdf"> BTP-Report </a></h4> 
+<h4> Guide : <a href="https://www.cse.iitb.ac.in/~ganesh/"> Prof. Ganesh Ramakrishnan </a> </h4>
+<p>
+Developed a parallel version for the Linear Programming Boost(LPBoost) algorithm. The method involved two independent paradigms, data parallelization and hypothesis space parallelization. A mathematically formulation to the Master problem was developed using Alternating Direction Method of Multipliers (ADMM). ADMM allows us to dis-entangle various variables in the join optimization problem, enabling a single master, multiple slave architecture, requiring slaves to solve the local optimization on the local hypothesis/data space independently. ADMM formulation helps to achieve consensus at the master across different slave nodes, propagating necessary penalties to the slaves. The method achieves faster convergences to the global problem
+<br>
 </p>
-
+<p>
+<h4> <a href="btp/report.pdf">Report </a> |  <a href="btp/slides.pdf"> Slides </a></h4> 
+</p>
 <h2>Undergradutate Research Project</h2>
-<h4> Guide : Prof. Suyash Awate </h4>
-<p> Principal Nested Spheres(PNS) is proposed to be a dimensionality reduction technique
-much different in approach as compared to Principal Geodesic Analysis (PGA) and Principal
-Component Analysis (PCA). The main idea behind PNS is its ability to find subspaces
-instead of modes of variation. PNS works best with data distributed on hyper-spheres(higher
-dimensional spheres). We have done modifications to the algorithm which gives better
-initialization. Currently we have implemented and tested PCA, PGA, PNS on hand and
-heart data set.  <h4> <a href ="rnd/report.pdf"> Rnd-Report </a> </h4>
+<h4> Guide :<a href="https://www.cse.iitb.ac.in/~suyash/"> Prof. Suyash Awate </a></h4>
+<p> 
+Kernel Principal Nested Spheres (KPNS) is a statistical procedure used to transform set of observations to independent un-correlated spaces called Principal Spheres. KPNS is a kernel method which transforms data using non-linear transformation into the Kernel space, finally finding principal spheres to represent the data. Our methods achieves better performance on Model compactness[v.s KPCA], Dimensionality reduction[v.s KPCA, Multi-Dimensional Scaling, Local Linear Embedding, Laplacian Eigenmaps], Classification[v.s KPCA]. The method derives its benefits from the kernels used which are unit norm and hence the data lie on an unit hyper-sphere(higher dimensional spheres), implying a natural directional sense in the data is along the sphere. KPNS solves a recursive optimization problem of fitting several spheres
+</p>
+<p>
+<a href ="rnd/kpns.pdf">Robust Kernel Principal Nested Spheres </a> <br> Suyash P. Awate*, Manik Dhar*, <b> Nilesh Kulkarni* </b> <br> Published at International Confernce on Pattern Recognition (ICPR), Cancun, 2016
+<br>
+*Equal contribution by all authors
 </p>
 
 <h2>Research and Development of AUV</h2>
@@ -131,7 +127,11 @@ $10000</li>.
 architecture for navigation along with dynamic mission planners. We have incorporated
 various sensors and are using Markov Localization with Visual & Acoustic Feedback for
 SLAM
-<p> <a href ="http://www.auv-iitb.org"> Website , <a href="auv/matsya3.pdf"> Technical Paper </a> </p>
+</ul>
+<p> <a href="auv/technical-paper.pdf">  Research and Development of Matsya 4.0, Autonomous Underwater Vehicle </a> <br>
+<b> Nilesh Kulkarni </b>, Hardik Godara et al.
+</p>
+<p> <a href ="http://www.auv-iitb.org"> Website </a> </p>
 
           </section>
 
