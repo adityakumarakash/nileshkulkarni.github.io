@@ -71,6 +71,7 @@
             
                             <br>  
                 <p class="view"><a href="research.html">Research</a></p>
+                <p class="view"><a href="industry.html">Industry Experience</a></p>
                 <p class="view"><a href="bio.html">Personal<small>All about me </small></a></p>
                 <p class="view"><a href="projects.html">Projects<small>useful code</small></a></p>
                 <p class="view"><a href="contact.html">Contact<small>my contact details</small></a></p>
@@ -86,10 +87,10 @@
             <h1>Research</h1>
 <hr/>
 
-<h2>Undergraduate Dissertation: Distributed Learning and Inference</h2>
+<h2>Undergraduate Dissertation: Distributed Linear Programming Boost</h2>
 <h4> Guide : <a href="https://www.cse.iitb.ac.in/~ganesh/"> Prof. Ganesh Ramakrishnan </a> </h4>
-<p>
-Developed a parallel version for the Linear Programming Boost(LPBoost) algorithm. The method involved two independent paradigms, data parallelization and hypothesis space parallelization. A mathematically formulation to the Master problem was developed using Alternating Direction Method of Multipliers (ADMM). ADMM allows us to dis-entangle various variables in the join optimization problem, enabling a single master, multiple slave architecture, requiring slaves to solve the local optimization on the local hypothesis/data space independently. ADMM formulation helps to achieve consensus at the master across different slave nodes, propagating necessary penalties to the slaves. The method achieves faster convergences to the global problem
+<p align="justify">
+My thesis involved developing a parallel version for the LPBoost algorithm. The method involves two independent paradigms, data parallelization and hypothesis space parallelization. The formulation for the distributed Master problem was done using Alternating Direction Method of Multipliers (ADMM). This allowed us to dis-entangle various variables in the joint optimization problem. The solution has a single master - multiple slave architecture. The slaves are required to solve the local optimization on the hypothesis/data space independently. Achieved consensus at the master propagating necessary penalties to the slaves. It is implemented in Akka
 <br>
 </p>
 <p>
@@ -97,42 +98,44 @@ Developed a parallel version for the Linear Programming Boost(LPBoost) algorithm
 </p>
 <h2>Undergradutate Research Project</h2>
 <h4> Guide :<a href="https://www.cse.iitb.ac.in/~suyash/"> Prof. Suyash Awate </a></h4>
-<p> 
-Kernel Principal Nested Spheres (KPNS) is a statistical procedure used to transform set of observations to independent un-correlated spaces called Principal Spheres. KPNS is a kernel method which transforms data using non-linear transformation into the Kernel space, finally finding principal spheres to represent the data. Our methods achieves better performance on Model compactness[v.s KPCA], Dimensionality reduction[v.s KPCA, Multi-Dimensional Scaling, Local Linear Embedding, Laplacian Eigenmaps], Classification[v.s KPCA]. The method derives its benefits from the kernels used which are unit norm and hence the data lie on an unit hyper-sphere(higher dimensional spheres), implying a natural directional sense in the data is along the sphere. KPNS solves a recursive optimization problem of fitting several spheres
+<p align="justify"> 
+Developed KPNS which is a kernel space statistical procedure. It is used to transform set of observations to independent un-correlated spaces called Principal Spheres. We achieve better performance on Model compactness, Dimensionality reduction , Data Classification [v.s standard methods]. The method derives its benefits from the unit norm kernel. The data lies on an unit hyper-sphere, implying a natural directional sense along the curved spherical surface.
 </p>
 <p>
-<a href ="rnd/kpns.pdf">Robust Kernel Principal Nested Spheres </a> <br> Suyash P. Awate*, Manik Dhar*, <b> Nilesh Kulkarni* </b> <br> Published at International Confernce on Pattern Recognition (ICPR), Cancun, 2016
+<a href ="rnd/kpns.pdf">Robust Kernel Principal Nested Spheres </a> <br> Suyash P. Awate*, Manik Dhar*, <b> Nilesh Kulkarni* </b> <br> Published @ International Confernce on Pattern Recognition (ICPR), Cancun, 2016
 <br>
 *Equal contribution by all authors
 </p>
 
 <h2>Research and Development of AUV</h2>
-<h4> Guide : Prof. Leena Vachhani & Prof. Hemandra Arya  </h4>
-
-AUV-IITB is an all student team working on the design and development of an AUV; An
-autonomous underwater vehicle capable of navigating and performing pre-defined tasks
-based on the feedback from cameras, IMU (Inertial Measurement Unit), pressure
-sensor and Doppler Velocity Log. Matsya series of AUVs compete at the world’s largest
-Underwater Robotics Competition, Robosub, conducted by the AUVSI Foundation in
-Association with US Office of Naval Research. The team has been consitently reaching the semifinals
+<h4> Guide : <a href="http://www.sc.iitb.ac.in/~leena/">Prof. Leena Vachhani</a>, <a href="http://www.aero.iitb.ac.in/~arya/">Prof. Hemandra Arya </a>  </h4>
+<p align="justify">
+AUV-IITB is an all student team working on the design and development of an AUV; An autonomous underwater vehicle capable of navigating and performing pre-defined tasks based on the feedback from cameras, IMU (Inertial Measurement Unit), pressure sensor and Doppler Velocity Log. Matsya series of AUVs compete at the world's largest Underwater Robotics Competition, Robosub, conducted by the AUVSI Foundation in Association with US Office of Naval Research. The team has been consitently reaching the semifinals
 of the competition since the past three years 2012, 2013 & 2014
+</p>
 <ul>
-<li><b>Team Leader, 2014</b> Leading a 40 member team comprising of three divisions: Electronics,
+<p align="justify">
+<li><b>Team Leader, 2014</b>
+Leading a 40 member team comprising of three divisions: Electronics,
 Software & Mechanical. Managing operations, logistics, recruitments and knowledge
 transfer in a four-tier cross functional team. Leading projects with Naval Research
-Board, Defense and Research Organization, India on DVL based AUV Localization
-for locating Underwater Acoustic Sources. Currently spent budget for the project is
-$10000</li>.  
-<li> <b>Software Lead, 2013</b> Leading a sub-division of 5 members. Designed a modular
-architecture for navigation along with dynamic mission planners. We have incorporated
-various sensors and are using Markov Localization with Visual & Acoustic Feedback for
-SLAM
+Board, Defense and Research Organization, India </li>.  
+<li> <b>Software Lead, 2013</b>
+Leading a sub-division of 5 members. Involved in development of full system stack to ensure fail-proof mission execution</ul>
+</p>
 </ul>
 <p> <a href="auv/technical-paper.pdf">  Research and Development of Matsya 4.0, Autonomous Underwater Vehicle </a> <br>
-<b> Nilesh Kulkarni </b>, Hardik Godara et al.
-</p>
-<p> <a href ="http://www.auv-iitb.org"> Website </a> </p>
+<b> Nilesh Kulkarni </b>, et al.
+<br>
+<a href ="http://www.auv-iitb.org"> Website </a> </p>
 
+<h2>Approximate algorithms for exploration using a swarm of robots</h2>
+<i>Intern @ Algorithms group, Technische Universitat, Braunschweig, Germany</i>
+<h4> Guide : <a href="https://www.ibr.cs.tu-bs.de/users/fekete/">Prof. Sandor Fekete </a></h4>
+<p align="justify">
+Researched on problems for unknown area exploration using a robot swarm. I worked on an Approximate algorithms and minimized overall error in navigation and localization with given minimum sensing capabilities of the robots
+<br>
+</p>
           </section>
 
                       <footer>
